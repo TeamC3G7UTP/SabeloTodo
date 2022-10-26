@@ -1,7 +1,10 @@
 //import logo from './logo.svg';
 
+//----Documentation----
 //import SwaggerUI from "swagger-ui-react"
 //import "swagger-ui-react/swagger-ui.css"
+
+//----Icons----
 
 import './App.css';
 import Sabelotodo from './components/sabelotodo';
@@ -9,7 +12,6 @@ import Sabelotodo from './components/sabelotodo';
 function App() {
   return (
     <div className="App">
-      <h1>Sabelotodo</h1>
       <Sabelotodo />
     </div>
   );
