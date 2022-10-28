@@ -3,39 +3,39 @@ sidebarOptions {
   flex-direction: column;
 }
 
-.sidebarOptions {
+.sidebarOption {
   display: flex; 
   align-items: center;
   padding: 10px;
   cursor: pointer; 
 }
 
-.sidebarOptions:hover {
-  background: #5B7DB1;
+.sidebarOption:hover {
+  background: #f5f1cd;
   border-radius: 5px;
 }
 
-.sidebarOptions > img {
-  height: 30px;
+.sidebarOption > img {
+  height: 50px;
   border-radius: 5px;
   margin-left: 20px;
 }
 
-.sidebarOptions > .MuiSvgIcons-root {
+.sidebarOption > .MuiSvgIcons-root {
   font-size: medium;
   margin-left: 20px;
 }
 
-.sidebarOptions > p {
+.sidebarOption > p {
   margin-left: 10px;
-  color: #61A4BC;
+  color: #1A132F;
   font-weight: 400;
   font-size: 13px;
 }
 
-.sidebarOptions > .text {
+.sidebarOption > .text {
   margin-left: 23px;
-  color: #61A4BC;
+  color: #1A132F;
   font-weight: 400;
-  font-size: 13px;
+  font-size: 15px;
 }

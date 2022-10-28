@@ -11,8 +11,7 @@ import {
   Search,
 } from "@mui/icons-material";
 import { Avatar, Button} from "@mui/material";
-import logo from "./logo-st.svg";
-
+import logo from "./img/svg/logo-st.svg";
 
 function SabelotodoHeaders(){
   return( 
@@ -24,11 +23,17 @@ function SabelotodoHeaders(){
           </div>
 
           <div className="stHeader__icons">
+
             <div className="stHeader__icon"><Home/></div>
+
             <div className="stHeader__icon"><BallotOutlined/></div>
+
             <div className="stHeader__icon"><MarkChatReadOutlined/></div>
+
             <div className="stHeader__icon"><Groups3Outlined/></div>
+
             <div className="stHeader__icon"><NotificationsOutlined/></div>
+            
           </div>
 
           <div className="stHeader__input">
