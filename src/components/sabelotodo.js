@@ -1,11 +1,25 @@
 import React from "react";
 import SabelotodoHeaders from "./sabelotodoHeaders";
+import Sidebar from "./sidebar";
+import Feed from "./feed";
+import Widget from "./widget";
+import "./css/sabelotodo.css";
 
 function Sabelotodo(){
   return(
-    <div>
+    <div className="sabelotodo">
       <SabelotodoHeaders />
+
+      <div className="sabelotodo__contents">
+        
+        <div className="sabelotodo__content">
+          <Sidebar/>
+          <Feed/>
+          <Widget/>
+        </div>
+
+      </div>
     </div>
   )
 }
-export default Sabelotodo
+export default Sabelotodo;

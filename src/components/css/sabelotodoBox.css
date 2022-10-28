@@ -1,0 +1,31 @@
+.sabelotodoBox {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  border: 1px solid #5B7DB1;
+  background-color: #61A4BC;
+  border-radius: 5px;
+  cursor: pointer;
+  max-width: 700px;
+}
+
+.SabelotodoBox:hover {
+  border: 1px solid #f5f1cd;
+}
+
+.sabelotodoBox__info {
+  display: flex;
+  align-items: center;
+}
+
+.sabelotodoBox__info > h5 {
+  color: #f5f1cd;
+  font-weight: bold;
+  margin-left: 10px;
+  font-size: large;
+}
+
+.sabelotodoBox__sabelotodo {
+  display: flex;
+  margin-top: 8px;
+}

@@ -1,24 +1,45 @@
 import React from "react";
+import "./css/sabelotodoHeader.css";
 
 //-----Icons-----
-import { AssignmentTurnedInOutlined, FeaturedPlayListOutlined, Home, PeopleAltOutlined } from "@mui/icons-material";
+import { 
+  BallotOutlined, 
+  Groups3Outlined, 
+  Home, 
+  MarkChatReadOutlined, 
+  NotificationsOutlined, 
+  Search,
+} from "@mui/icons-material";
+import { Avatar, Button} from "@mui/material";
+import logo from "./logo-st.svg";
 
 
 function SabelotodoHeaders(){
   return( 
       <div className="stHeader">
         <div className="stHeader-content">
+
           <div className="stHeader__logo">
-            <img src="#" alt="logo"/>
-
-            <div className="stHeader__icons">
-              <div className="stHeader__icon"><Home /></div>
-              <div className="stHeader__icon"><FeaturedPlayListOutlined/></div>
-              <div className="stHeader__icon"><AssignmentTurnedInOutlined/></div>
-              <div className="stHeader__icon"><PeopleAltOutlined/></div>
-            </div>
-
+            <img src={logo} alt="logo" />
           </div>
+
+          <div className="stHeader__icons">
+            <div className="stHeader__icon"><Home/></div>
+            <div className="stHeader__icon"><BallotOutlined/></div>
+            <div className="stHeader__icon"><MarkChatReadOutlined/></div>
+            <div className="stHeader__icon"><Groups3Outlined/></div>
+            <div className="stHeader__icon"><NotificationsOutlined/></div>
+          </div>
+
+          <div className="stHeader__input">
+            <Search/>
+            <input type="text" placeholder="Busca en Sabelotodo"/>
+          </div>
+
+          <div className="stHeader__rem">
+            <Avatar/>
+          </div>
+                <Button>Preguntar</Button>
         </div>
       </div>
   )

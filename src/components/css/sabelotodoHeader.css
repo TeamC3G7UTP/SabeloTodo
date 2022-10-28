@@ -1,0 +1,98 @@
+.stHeader {
+  display: flex;
+  align-items: center;
+  background-color: #f5f1cd;
+  position: sticky;
+  z-index: 1000;
+  top: 0px;
+  /**/
+  box-shadow: 2px 3px 6px rgb(26, 19, 47 0.5) ;
+  justify-content: center;
+  padding: 3px;
+}
+
+.stHeader-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.stHeader__logo > img {
+  height: 45px !important; 
+  object-fit: contain;
+}
+
+.stHeader__icons {
+ display: flex;
+}
+
+.stHeader__icon {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.stHeader__icon:hover {
+  color: #5B7DB1;
+  border-radius: 5px;
+}
+
+.stHeader__icon > .MuiSvgIcon-root {
+  color: #61A4BC;
+  font-size: xx-large;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.stHeader__icon:hover > .MuiSvgIcon-root {
+  color: #1A132F;
+}
+
+.stHeader__input {
+  display: flex;
+  align-items: center;
+  border: 1px solid #61A4BC;
+  padding: 5px;
+  border-radius: 5px;
+  margin-left: 5px;
+}
+
+.stHeader__input > input {
+  background-color: transparent;
+  outline: none;
+  border: none;
+  color: #1A132F;
+}
+
+.stHeader__input > .MuiSvgIcon-root {
+  color: #61A4BC;
+}
+
+.stHeader__avatar {
+  cursor: pointer;
+}
+
+.stHeader__rem {
+  display: flex;
+  align-items: xx-large;
+  margin-left: 25px;
+}
+
+.stHeader__rem > .MuiSvgIcon-root {
+  font-size: xx-large;
+  color: #61A4BC;
+  margin-left: 25px;
+  cursor: pointer;
+}
+
+.stHeader__rem > .MuiSvgIcon-root:hover {
+  color:#f5f1cd;
+  background: #1A132F;
+  text-transform: inherit;
+  border-radius: 5px;
+  margin-left: 25px;
+}
+
+.stHeader__rem > .MuiSvgIcon-root:hover {
+  color: #1A132F;
+  background: #f5f1cd;
+}
