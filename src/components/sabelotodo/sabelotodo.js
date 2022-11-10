@@ -1,8 +1,8 @@
 import React from "react";
-import SabelotodoHeaders from "./sabelotodoHeaders";
-import Sidebar from "./sidebar";
+import SabelotodoHeaders from "../headers/sabelotodoHeaders";
+import Sidebar from "../sidebar";
 import Feed from "./feed";
-import Widget from "./widget";
+import Widget from "../widget/widget";
 import "./css/sabelotodo.css";
 
 function Sabelotodo(){

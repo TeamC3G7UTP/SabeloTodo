@@ -37,7 +37,7 @@ function sidebarOptions() {
 
         <div className='sidebarOption'>
           <img src={SoftSkills} alt="Dev" />
-          <p>SoftSkills</p>
+          <p>Soft Skills</p>
         </div>
 
         <div className='sidebarOption'>

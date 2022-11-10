@@ -1,7 +1,7 @@
 import React from 'react';
 import "./css/feed.css";
-import SabelotodoBox from './sabelotodoBox';
-import Post from "./post";
+import SabelotodoBox from '../box/sabelotodoBox';
+import Post from "../post/post";
 
 
 function feed() {
