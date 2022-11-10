@@ -1,7 +1,7 @@
 import React from 'react'
-import "./css/widget.css"
+import "./widget.css"
 
-function widget() {
+function Widget() {
   return (
     <div className='widget'>
       widget
@@ -9,4 +9,4 @@ function widget() {
   )
 }
 
-export default widget
+export default Widget

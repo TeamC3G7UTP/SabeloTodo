@@ -1,6 +1,6 @@
 import React from 'react'
-import "./css/widgetContent.css"
-function widgetContent() {
+import "./widgetContent.css"
+function WidgetContent() {
   return (
     <div>
       
@@ -8,4 +8,4 @@ function widgetContent() {
   )
 }
 
-export default widgetContent
+export default WidgetContent

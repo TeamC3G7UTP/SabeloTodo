@@ -1,5 +1,5 @@
 import React from 'react'
-import "./css/post.css"
+import "./post.css"
 
 //-----Icons-----
 import { 
@@ -12,7 +12,7 @@ import {
 } from '@mui/icons-material'
 import { Avatar } from '@mui/material'
 
-function post() {
+function Post() {
   return (
     <div className="post">
 
@@ -52,4 +52,4 @@ function post() {
   )
 }
 
-export default post
+export default Post

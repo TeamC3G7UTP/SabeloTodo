@@ -1,8 +1,8 @@
 import React from 'react';
-import "./css/sidebar.css";
-import SidebarOptions from './sidebarOptions';
+import "./sidebar.css";
+import SidebarOptions from '../options/SidebarOptions';
 
-function sidebar() {
+function Sidebar() {
   return (
   <div className='sidebar'>
     <SidebarOptions/>
@@ -10,4 +10,4 @@ function sidebar() {
   )
 }
 
-export default sidebar
+export default Sidebar

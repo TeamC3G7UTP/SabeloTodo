@@ -1,8 +1,8 @@
 import { Avatar } from '@mui/material'
 import React from 'react'
-import "./css/sabelotodoBox.css"
+import "./sabelotodoBox.css"
 
-function sabelotodoBox() {
+function SabelotodoBox() {
   return (
     <div className='sabelotodoBox'>
       <div className='sabelotodoBox__info'>
@@ -17,4 +17,4 @@ function sabelotodoBox() {
   )
 }
 
-export default sabelotodoBox
+export default SabelotodoBox

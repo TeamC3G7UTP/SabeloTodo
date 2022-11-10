@@ -1,5 +1,5 @@
 import React from "react";
-import "./css/sabelotodoHeader.css";
+import "./sabelotodoHeader.css";
 
 //-----Icons-----
 import { 
@@ -11,7 +11,7 @@ import {
   Search,
 } from "@mui/icons-material";
 import { Avatar, Button} from "@mui/material";
-import logo from "./img/svg/logo-st.svg";
+import logo from "../assets/svg/logo-st.svg";
 
 function SabelotodoHeaders(){
   return( 

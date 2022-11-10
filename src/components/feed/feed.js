@@ -1,10 +1,9 @@
 import React from 'react';
-import "./css/feed.css";
-import SabelotodoBox from '../box/sabelotodoBox';
-import Post from "../post/post";
+import "./feed.css";
+import SabelotodoBox from '../box/SabelotodoBox';
 
 
-function feed() {
+function Feed() {
   return (
     <div className='feed'>
       <SabelotodoBox/>
@@ -12,4 +11,4 @@ function feed() {
   )
 }
 
-export default feed
+export default Feed

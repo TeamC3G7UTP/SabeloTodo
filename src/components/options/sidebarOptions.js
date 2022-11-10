@@ -1,17 +1,17 @@
 import React from 'react';
-import "./css/sidebarOptions.css";
+import "./sidebarOptions.css";
 
 //---------imgs----------
-import Desing from "./img/svg/Designer_Flatline.svg";
-import DataAnalysis from "./img/svg/Data_processing _Flatline.svg";
-import Startups from "./img/svg/Startup_Flatline.svg";
-import Blockchain from "./img/svg/Ethereum_Flatline.svg";
-import Fitness from "./img/svg/Fitness_Flatline.svg";
-import SoftSkills from "./img/svg/Team_meeting_Flatline.svg";
-import Economy from "./img/svg/Currency_Flatline.svg";
-import Dev from "./img/svg/Web_Developer_Flatline.svg";
+import Desing from "../assets/svg/Designer_Flatline.svg";
+import DataAnalysis from "../assets/svg/Data_processing _Flatline.svg";
+import Startups from "../assets/svg/Startup_Flatline.svg";
+import Blockchain from "../assets/svg/Ethereum_Flatline.svg";
+import Fitness from "../assets/svg/Fitness_Flatline.svg";
+import SoftSkills from "../assets/svg/Team_meeting_Flatline.svg";
+import Economy from "../assets/svg/Currency_Flatline.svg";
+import Dev from "../assets/svg/Web_Developer_Flatline.svg";
 
-function sidebarOptions() {
+function SidebarOptions() {
   return (
     <div className='sidebarOptions'>
         
@@ -58,4 +58,4 @@ function sidebarOptions() {
   )
 }
 
-export default sidebarOptions;
+export default SidebarOptions;
