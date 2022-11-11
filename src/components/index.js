@@ -1,4 +1,4 @@
-//this is a router conponent to concentrate links
+//this is a router component to concentrate links
 export {default as SabelotodoBox} from "./box/SabelotodoBox";
 export {default as WidgetContent} from "./content/WidgetContent";
 export {default as Feed} from "./feed/Feed";
