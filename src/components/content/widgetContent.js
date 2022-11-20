@@ -1,5 +1,5 @@
 import React from 'react'
-import "./widgetContent.css"
+import "./WidgetContent.css"
 function WidgetContent() {
   return (
     <div>

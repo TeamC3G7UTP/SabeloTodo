@@ -1,5 +1,5 @@
 import React from 'react';
-import "./sidebarOptions.css";
+import "./SidebarOptions.css";
 
 //---------imgs----------
 import Desing from "../assets/svg/Designer_Flatline.svg";
