@@ -7,4 +7,5 @@ export {default as SidebarOptions} from "./options/SidebarOptions";
 export {default as Post} from "./post/Post";
 export {default as Sabelotodo} from "./sabelotodo/Sabelotodo";
 export {default as Sidebar} from "./sidebar/Sidebar";
-export {default as Widget} from "./widget/widget";
+export {default as Widget} from "./widget/Widget";
+export {default as Login} from "./auth/Login";

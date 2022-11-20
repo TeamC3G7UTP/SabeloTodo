@@ -1,10 +1,17 @@
 import React from 'react'
-import "./widget.css"
+import { WidgetContent } from '../index'
+import "./Widget.css"
 
 function Widget() {
   return (
     <div className='widget'>
-      widget
+
+      <div className='widget__header'>
+        <h5>Espacio para seguidores</h5>
+      </div>
+      <div className='widget__contents'>
+        <WidgetContent />
+      </div>
     </div>
   )
 }

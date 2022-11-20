@@ -2,7 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
+
 import reportWebVitals from './reportWebVitals';
+//import TimeAgo from 'javascript-time-ago';
+//import es from "javascript-time-ago/locale/es-CO.json"
+//import { Provider } from 'react';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
