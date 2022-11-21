@@ -1,7 +1,7 @@
 import React from "react";
 import {SabelotodoHeaders, Sidebar, Feed, Widget} from "../index";
 import "./Sabelotodo.css";
-
+import "./resposive-modal.css"
 function Sabelotodo(){
   return(
     <div className="sabelotodo">
