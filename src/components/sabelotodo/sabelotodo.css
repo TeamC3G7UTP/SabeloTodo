@@ -20,7 +20,7 @@
   max-width: 1200px;
 }
 
-.react-responsive-modal-modal {
+.react-modal-modal {
   width: 90vw;
   height: 90vh;
 }
@@ -29,6 +29,6 @@
   height: 50vh;
 }
 
-.react-responsive-modal-overlay {
+.react-modal-overlay {
   background: rgb(0 0 0 / 75%);
 }
