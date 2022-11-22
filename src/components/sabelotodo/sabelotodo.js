@@ -1,6 +1,6 @@
 import React from "react";
 import {SabelotodoHeaders, Sidebar, Feed, Widget} from "../index";
-import "./sabelotodo.css";
+import "./Sabelotodo.css";
 
 function Sabelotodo(){
   return(

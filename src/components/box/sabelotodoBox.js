@@ -1,6 +1,7 @@
-import { Avatar } from '@mui/material'
 import React from 'react'
-import "./sabelotodoBox.css"
+import "./SabelotodoBox.css"
+//-----Icons-----
+import { Avatar } from '@mui/material'
 
 function SabelotodoBox() {
   return (

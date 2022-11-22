@@ -1,12 +1,13 @@
 import React from 'react';
-import "./feed.css";
-import SabelotodoBox from '../box/SabelotodoBox';
+import "./Feed.css";
+import { SabelotodoBox, Post } from '../index';
 
 
 function Feed() {
   return (
     <div className='feed'>
-      <SabelotodoBox/>
+      <SabelotodoBox />
+      <Post />
     </div>
   )
 }

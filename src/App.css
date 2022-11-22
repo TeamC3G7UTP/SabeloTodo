@@ -25,10 +25,11 @@ button::selection {
 }
 
 button:focus {
-  outline: none;
+  outline: none !important;
 }
 
 :root {
   --vp: 0.052vw;
   --vm: .278vw;
 }
+
