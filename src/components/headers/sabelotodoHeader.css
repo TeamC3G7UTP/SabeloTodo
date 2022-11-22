@@ -101,11 +101,11 @@
   display: flex;
   align-items: center;
   margin-bottom: 5px;
-  border-bottom: 1px solid rgba(187, 187, 187, 0.5);
+  border-bottom: 1px solid rgba(97, 164, 188, 0.15);
 }
 
 .modal__title > h5 {
-  color: gray;
+  color: #61A4BC;
   font-size: 20px;
   cursor: pointer;
   font-weight: 500;
@@ -113,7 +113,7 @@
 }
 
 .modal__title > h5:hover {
-  color: #b92b27;
+  color: #5B7DB1;
 }
 
 .modal__info {
@@ -125,16 +125,16 @@
 .modal__info > p {
   margin-left: 10px;
   font-size: small;
-  color: gray;
+  color: #f5f1cd;
 }
 
 .modal__info > .modal__scope {
   display: flex;
   align-items: center;
-  color: rgb(98, 98, 98);
+  color: #61A4BC;
   padding: 5px;
   margin-left: 10px;
-  background-color: rgb(230, 230, 230);
+  background-color: #f5f1cd;
   border-radius: 33px;
   cursor: pointer;
 }
@@ -147,7 +147,7 @@
 }
 
 .modal__field > .modal__fieldLink {
-  color: gray;
+  color: #61a4bc54;
   display: flex;
   margin-top: 10px;
   align-items: center;
@@ -171,7 +171,7 @@
   margin-top: 10px;
   border: none;
   outline: none;
-  color: gray;
+  color: #5B7DB1;
   font-weight: 500;
   padding: 10px;
   border-radius: 33px;
@@ -179,15 +179,15 @@
 }
 
 .modal__buttons > .cancel:hover {
-  color: red;
+  color: #1A132F;
 }
 
 .modal__buttons > .add {
   border: none;
   outline: none;
   margin-top: 10px;
-  background-color: #222;
-  color: white;
+  background-color: #1A132F;
+  color: #f5f1cd;
   font-weight: 700;
   padding: 10px;
   border-radius: 33px;
@@ -196,8 +196,8 @@
 }
 
 .modal__buttons > .add:hover {
-  background-color: #eee;
-  color: #222;
+  background-color: #f5f1cd;
+  color: #1A132F;
 }
 
 @media only screen and (max-width: 600px) {

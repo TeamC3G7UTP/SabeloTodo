@@ -17,7 +17,6 @@ import { Avatar, Button, Input} from "@mui/material";
 import logo from "../assets/svg/logo-st.svg";
 import Modal from 'react-modal';
 
-
 const customStyles = {
   content: {
     top: '50%',

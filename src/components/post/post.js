@@ -1,20 +1,37 @@
-import React from 'react'
+import React, { useState } from "react";
 import "./Post.css"
-import { Modal } from "react-modal"
 //-----Icons-----
 import { Avatar } from '@mui/material'
 import { 
   ArrowDownwardOutlined, 
   ArrowUpwardOutlined, 
   ChatBubbleOutline, 
-  Close, 
   MoreHorizOutlined, 
   RepeatOneOutlined, 
-  ShareOutlined 
-} from '@mui/icons-material'
+  ShareOutlined,
+  Close
+} from '@mui/icons-material';
+import Modal from 'react-modal';
+import ReactQuill from "react-quill";
+import 'react-quill/dist/quill.snow.css'
 
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-60%',
+    transform: 'translate(-50%, -50%)',
+  },
+};
 
 function Post() {
+
+  const [modalIsOpen, setIsOpen] = React.useState(false);
+  function openModal() { setIsOpen(true); }
+  function closeModal() { setIsOpen(false); }
+
   return (
     <div className="post">
 
@@ -27,7 +44,37 @@ function Post() {
       <div className="post__body">
         <div className='post__question'>
           <p>Esta es la pregunta</p>
-          <button className='post__btnAnswer'>Pregunta</button>
+          <button onClick={ openModal } className='post__btnAnswer'>Pregunta</button>
+
+          <Modal
+            isOpen={modalIsOpen}
+            onRequestClose={ closeModal }
+            style={customStyles}
+            contentLabel="Modal"
+            shouldCloseOnEsc
+            center
+            shouldCloseOnOverlayClick
+            styles={{
+              overlay: {
+                height: "auto",
+              },
+            }}
+          >
+          <Close onClick={ closeModal }/>
+          <div className="modal__question">
+            <h1>Esta es la pregunta.</h1>
+            <p>preguntado por: {""}</p><span className="name">Nombre de Usuario</span>{""}en{""}<span>Fecha</span>
+          </div>
+
+          <div className="modal__answer">
+            <ReactQuill placeholder="Ingrese su pregunta."/>
+          </div>
+          <div className="modal__buttons">
+            <button className="cancel" onClick={closeModal}>Cacelar</button>
+                      <button type="submit" className="add">Agregar Pregunta</button>
+          </div>
+          </Modal>
+
         </div>
       </div>
 
